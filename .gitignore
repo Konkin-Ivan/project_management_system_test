@@ -1,0 +1,5 @@
+.idea/
+web/vendor
+tags
+.phpunit.result.cache
+.env
