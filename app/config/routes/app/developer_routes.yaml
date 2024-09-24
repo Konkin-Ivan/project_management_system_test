@@ -1,0 +1,19 @@
+developer_index:
+    path: /developer
+    controller: App\Core\Http\DeveloperController::index
+
+developer_new:
+    path: /developer/new
+    controller: App\Core\Http\DeveloperController::new
+
+developer_show:
+    path: /developer/{id}
+    controller: App\Core\Http\DeveloperController::show
+
+developer_edit:
+    path: /developer/{id}/edit
+    controller: App\Core\Http\DeveloperController::edit
+
+developer_delete:
+    path: /developer/{id}/delete
+    controller: App\Core\Http\DeveloperController::delete

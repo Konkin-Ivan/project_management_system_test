@@ -1,0 +1,19 @@
+project_index:
+    path: /project
+    controller: App\Core\Http\ProjectController::index
+
+project_new:
+    path: /project/new
+    controller: App\Core\Http\ProjectController::new
+
+project_show:
+    path: /project/{id}
+    controller: App\Core\Http\ProjectController::show
+
+project_edit:
+    path: /project/{id}/edit
+    controller: App\Core\Http\ProjectController::edit
+
+project_delete:
+    path: /project/{id}/delete
+    controller: App\Core\Http\ProjectController::delete

@@ -3,3 +3,9 @@ controllers:
         path: ../src/Core/Http/
         namespace: App\Controller
     type: attribute
+
+developer_routes:
+    resource: routes/app/developer_routes.yaml
+
+project_routes:
+    resource: routes/app/project_routes.yaml

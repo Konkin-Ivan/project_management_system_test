@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Project Page{% endblock %}
+
+{% block content %}
+    <h1>Project Page</h1>
+    {% include 'projects/components/edit.html.twig' %}
+    {% include 'projects/components/show.html.twig' %}
+    {% include 'projects/components/list.html.twig' %}
+    {% include 'projects/components/new.html.twig' %}
+{% endblock %}
